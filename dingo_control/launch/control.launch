@@ -12,9 +12,11 @@
   <node name="controller_spawner" pkg="controller_manager" type="spawner"
         args="dingo_joint_publisher dingo_velocity_controller" />
 
+  <!--
   <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
     <rosparam command="load" file="$(dirname)/../config/robot_localization.yaml" />
   </node>
+  -->
 
   <node pkg="twist_mux" type="twist_mux" name="twist_mux">
     <rosparam command="load" file="$(dirname)/../config/twist_mux.yaml" />
