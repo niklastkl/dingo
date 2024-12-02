@@ -68,11 +68,11 @@ teleop_twist_joy:
   axis_angular:
     yaw: 3
   scale_angular:
-    yaw: 1.4 # TODO: should this be 1.0?
+    yaw: 0.6 # TODO: should this be 1.0?
   scale_angular_turbo:
     yaw: 1.4 # TODO: should this be 1.0?
   enable_button: 4
   enable_turbo_button: 5
 joy_node:
-  deadzone: 0.1 # TODO: should this be 0.02?
+  deadzone: 0.02 # TODO: should this be 0.02?
   autorepeat_rate: 20
